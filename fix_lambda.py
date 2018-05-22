@@ -4,6 +4,9 @@ import sys, tempfile, shutil
 monoPplus/se/126599_097934/E126599_097934_0m.ins
 
 has lambda=0.97934 A, and puts that wavelength on the CELL line.
+
+Files are modified in place, but every line not beginning with CELL will be
+left untouched.
 '''
 
 
